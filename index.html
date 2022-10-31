@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 4</title>
+    <style>
+        body {
+            overflow-x: hidden;
+
+        }
+
+        .navbar {
+
+            position: relative;
+            top: -35px;
+            margin-right: 220px;
+        }
+
+        .href {
+            padding: 10px 10px;
+            font-size: larger;
+            float: right;
+            margin: 5px 20px;
+            text-decoration: none;
+            color: rgb(20, 20, 71);
+        }
+
+        .src_logo_nav {
+            height: 56px;
+            width: 100px;
+            position: absolute;
+            left: 250px;
+            top: -5px;
+        }
+
+        .container {
+            height: 100%;
+            width: 100%;
+            background-image: url("img-1.jpg");
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: contain;
+            top: 50px;
+            background-size: cover;
+            box-shadow: inset 0 0 0 1000px rgba(9, 30, 68, 0.8);
+        }
+
+        #page1_para {
+            color: white;
+            text-align: center;
+            position: relative;
+            top: 110px;
+            font-size: 60px;
+        }
+
+        #page1_para2 {
+            color: white;
+            text-align: center;
+            position: relative;
+            top: 75px;
+        }
+
+        .btn1 {
+           /*  background-color: rgb(187, 187, 5);
+            border-radius: 30px;
+            border: none; */
+            background-color: rgba(0, 0, 0, 0);
+            border: 2px solid white;
+            border-radius: 30px;
+            position: relative;
+            top: 100px;
+            left: 500px;
+            padding: 0px;
+            width: 160px;
+        }
+      
+
+        .btn2 {
+            background-color: rgba(0, 0, 0, 0);
+            border: 2px solid white;
+            border-radius: 30px;
+            position: relative;
+            top: 100px;
+            left: 600px;
+            padding: 0px;
+            width: 160px;
+
+        }
+        .btn1:hover,.btn2:hover{
+            background-color: rgb(187, 187, 5);
+            border:none;
+        }
+
+        #btnpara1 {
+            color: white;
+        }
+
+        #btnpara2 {
+            color: white;
+        }
+
+        .src_nav_mail {
+            position: absolute;
+            right: -90px;
+            height: 58px;
+            top: -3px;
+        }
+
+        .container2 {
+            position: absolute;
+            bottom: -340px;
+            left: 300px;
+        }
+
+        #page2title {
+            color: rgb(20, 20, 71);
+            font-size: 60px;
+            padding: 40px;
+        }
+
+        #page2content {
+            position: absolute;
+            bottom: -13px;
+            left: 44px;
+        }
+
+        .writeup {
+            position: inherit;
+            left: 74px;
+        }
+
+        #wup1 {
+            position: inherit;
+            top: 315px;
+        }
+
+        #wup2 {
+            position: inherit;
+            top: 365px;
+        }
+
+        .page2src {
+            height: 300px;
+            width: 500px;
+            position: inherit;
+            right: -535px;
+            bottom: -147px;
+        }
+
+        .logo1 {
+            height: 22px;
+            width: 29px;
+            position: absolute;
+            left: 335px;
+            bottom: -376px;
+        }
+
+        .logo2 {
+            height: 22px;
+            width: 29px;
+            position: absolute;
+            left: 335px;
+            bottom: -423.5px;
+        }
+
+        .logo3 {
+            height: 22px;
+            width: 29px;
+            position: absolute;
+            left: 335px;
+            bottom: -471px;
+        }
+
+        .container3 {
+
+            height: 82%;
+            width: 1500px;
+            background-image: url(img-2.jpg);
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: contain;
+            bottom: -1100px;
+            background-size: cover;
+            box-shadow: inset 0 0 0 1000px rgb(9 30 68 / 80%);
+        }
+
+
+        #page3writeup {
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            font-size: 50px;
+            left: -74px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        #icon1 {
+            color: white;
+            position: relative;
+            top: 16px;
+            left: 201px;
+        }
+
+        #icon2 {
+            color: white;
+            position: relative;
+            left: 605px;
+            top: -123px;
+        }
+
+        #icon3 {
+            color: white;
+            position: relative;
+            top: -270px;
+            left: 980px;
+        }
+
+        #page3btn {
+            position: relative;
+            left: 579px;
+            border-radius: 30px;
+            width: 187px;
+            height: 47px;
+            color: white;
+            top: -211px;
+            border:none;
+            background-color: rgba(0, 0, 0, 0);
+            border: 2px solid white;
+            
+        }
+
+
+
+        .page4writeup {
+            position: relative;
+            top: 1840px;
+            font-size: 34px;
+            left: 95px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: rgb(20, 20, 71);
+        }
+
+        #credit {
+            position: relative;
+            top: 1848px;
+            font-size: 15px;
+            left: 95px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: rgb(20, 20, 71);
+        }
+
+        .nav_page4 {
+            position: relative;
+            top: 1870px;
+            left: 91px;
+        }
+
+        .hrefpage4 {
+            color: rgb(20, 20, 71);
+            font-size: 15px;
+            padding: 26px;
+            margin-right: 5px;
+            text-decoration: none;
+        }
+
+        .hrefpage4:hover {
+            background-color: rgb(195, 192, 192);
+            padding: 15px;
+        }
+
+        .srcleft1 {
+            position: absolute;
+            height: 419px;
+            width: 301px;
+            left: 120px;
+            top: 2117px;
+        }
+
+        .srcleft2 {
+            position: absolute;
+            height: 190px;
+            width: 301px;
+            left: 120px;
+            top: 2575px;
+        }
+
+        .srcmid1 {
+            position: absolute;
+            height: 190px;
+            width: 301px;
+            left: 482px;
+            top: 2117px;
+
+        }
+
+        .srcmid2 {
+            position: absolute;
+            height: 190px;
+            width: 301px;
+            left: 482px;
+            top: 2346px;
+        }
+
+        .srcmid3 {
+            position: absolute;
+            height: 190px;
+            width: 301px;
+            left: 482px;
+            top: 2568px;
+        }
+
+
+        .srcright1 {
+            position: absolute;
+            height: 419px;
+            width: 301px;
+            right: 377px;
+            top: 2346px;
+        }
+
+        .srcright2 {
+            position: absolute;
+            height: 190px;
+            width: 301px;
+            right: 377px;
+            top: 2117px;
+        }
+
+        .overlay {
+            background-color: rgba(9, 30, 68, 0.8);
+            height: 160px;
+            width: 265px;
+            position: absolute;
+            left: 500px;
+            top: 2133px;
+        }
+
+        #plus {
+            color: white;
+            position: inherit;
+            right: 136px;
+            font-size: 30px;
+            top: -8px;
+        }
+
+        .yellowborder {
+            background-color: rgb(187, 187, 5);
+            height: 40px;
+            width: 40px;
+            border-radius: 47px;
+            position: absolute;
+            left: 601px;
+            top: 2155px;
+            opacity: 0.6;
+        }
+
+        #overlay_pt {
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            position: relative;
+            top: 42px;
+            left: 72px;
+        }
+
+        #overlay_code {
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            position: relative;
+            left: 102px;
+        }
+
+        .container5 {
+            background-image: url("img-4.jpg");
+            height: 65%;
+            width: 1610px;
+            position: absolute;
+            top: 2872px;
+
+            background-repeat: no-repeat;
+
+            background-size: cover;
+            box-shadow: inset 0 0 0 1000px rgba(9, 30, 68, 0.8);
+
+        }
+
+        .srcp5box1 {
+            height: 78px;
+            width: 79px;
+            position: relative;
+            top: 110px;
+            left: 412px;
+        }
+
+        .srcp5box2 {
+            height: 78px;
+            width: 79px;
+            position: relative;
+            top: -96px;
+            left: 645px;
+        }
+
+        .srcp5box3 {
+            height: 78px;
+            width: 79px;
+            position: relative;
+            top: -309px;
+            left: 872px;
+        }
+
+        .srcp5box4 {
+            height: 78px;
+            width: 79px;
+            position: relative;
+            top: -517px;
+            left: 1088px;
+        }
+
+        .p5b1para1,
+        .p5b1para2 {
+            color: white;
+            text-align: center;
+            position: relative;
+            top: 137px;
+            left: -350px;
+            font-size: 25px;
+        }
+
+        .p5b2para1,
+        .p5b2para2 {
+            color: white;
+            text-align: center;
+            position: relative;
+            top: -77px;
+            left: -117px;
+            font-size: 25px;
+        }
+
+        
+        .p5b3para2,.p5b3para1 {
+            color: rgb(212, 212, 13);
+            text-align: center;
+            position: relative;
+            top: -291px;
+            left: 105px;
+            font-size: 25px;
+        }
+        .p5b4para1,
+        .p5b4para2 {
+            color: white;
+            text-align: center;
+            position: relative;
+            top: -506px;
+            left: 330px;
+            font-size: 25px;
+        }
+
+        #p6para1 {
+
+            color: rgba(9, 30, 68, 0.8);
+            position: relative;
+            text-align: center;
+            top: 3137px;
+            font-size: 60px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        #p6para2 {
+            color: rgba(9, 30, 68, 0.8);
+            position: relative;
+            text-align: center;
+            top: 3100px;
+            font-size: 15px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .p6container1 {
+            height: 354px;
+            width: 310px;
+            background-color: whitesmoke;
+            position: relative;
+            left: 200px;
+            top: 3173px;
+        }
+
+        .p6container2 {
+            height: 351px;
+            width: 310px;
+            background-color: whitesmoke;
+            position: relative;
+            left: 569px;
+            top: 2796px;
+        }
+
+        .p6container3 {
+            height: 351px;
+            width: 310px;
+            background-color: whitesmoke;
+            position: relative;
+            left: 920px;
+            top: 2420px;
+        }
+
+        #p6head,
+        #p6lorem,
+        #p6free,
+        #p6500,
+        #p6head1,
+        #p6lorem1,
+        #p6price1,
+        #p6descp2,
+        #p6head2,
+        #p6price2,
+        #p6descp3,
+        #p6lorem2 {
+            text-align: center;
+            color: rgba(9, 30, 68, 0.8);
+            position: relative;
+            top: 30px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        #p6head,
+        #p6head1,
+        #p6head2 {
+            font-size: 25px;
+        }
+
+        #p6free,
+        #p6price1,
+        #p6price2 {
+            font-size: 25px;
+        }
+
+        #p6500,
+        #p6descp2,
+        #p6descp3 {
+            font-size: 15px;
+        }
+
+        #p6lorem,
+        #p6lorem1 {
+            font-size: 15px;
+        }
+
+        #p6btn1 {
+            align-items: center;
+            position: relative;
+            top: 79px;
+            left: 87px;
+            border-radius: 129px;
+            padding: 6px;
+            width: 142px;
+        }
+
+        #p6btn2 {
+            align-items: center;
+            position: relative;
+            top: 48px;
+            left: 87px;
+            border-radius: 129px;
+            padding: 6px;
+            width: 142px;
+        }
+
+        #p6btn3 {
+            align-items: center;
+            position: relative;
+            top: 28px;
+            left: 87px;
+            border-radius: 129px;
+            padding: 6px;
+            width: 142px;
+
+        }
+
+        .container7 {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 3988px;
+            background-image: url("img-3.jpg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-size: cover;
+            box-shadow: inset 0 0 0 1000px rgba(9, 30, 68, 0.8);
+
+        }
+
+        #p7wup,
+        #p7wup1 {
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            position: relative;
+            left: 100px;
+            top: -10px;
+        }
+
+        #p7wup {
+            font-size: 50px;
+        }
+
+        .p7src1 {
+            height: 134px;
+            width: 130px;
+            position: relative;
+            top: 95px;
+            left: 426px;
+            border-radius: 99px;
+        }
+
+        .p7src2 {
+            height: 134px;
+            width: 130px;
+            position: relative;
+            top: -170px;
+            left: 1075px;
+            border-radius: 99px;
+        }
+
+        #p7cre,
+        #p7lorem1 {
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 13px;
+            position: relative;
+            top: 105px;
+            left: -273px;
+            text-align: center;
+        }
+
+        #p7cre1,
+        #p7lorem2 {
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 13px;
+            position: relative;
+            top: -159px;
+            left: 382px;
+            text-align: center;
+        }
+
+        #p7upbox1 {
+            height: 50px;
+            width: 50px;
+            background: rgb(68, 68, 153);
+            position: relative;
+            left: 1300px;
+            top: 189px;
+        }
+
+        #p7upbox2 {
+            height: 50px;
+            width: 50px;
+            background:rgb(68, 68, 153);
+            position: relative;
+            left: 1350px;
+            top: 139px;
+        }
+
+        .box1p7src {
+            height: 25px;
+            width: 25px;
+            position: relative;
+            top: 10px;
+            left: 10px;
+        }
+
+        .box2p7src {
+            height: 25px;
+            width: 25px;
+            position: relative;
+            top: 10px;
+            left: 10px;
+        }
+
+        .container8 {
+            position: relative;
+            top: 3182px;
+            left: 200px;
+        }
+
+        #p8wup {
+            font-size: 50px;
+            color: rgb(20, 20, 71);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        #p8lorem1 {
+            font-size: 15px;
+            color: rgb(20, 20, 71);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-bottom: 60px;
+            margin-top: 30px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .p8container1 {
+            height: 482px;
+            /*  width: 377px; */
+            float: left;
+            width: 25%;
+            margin-right: 25px;
+            background-color: whitesmoke;
+        }
+
+        .p8container2 {
+            height: 482px;
+            float: left;
+            margin-right: 25px;
+            width: 25%;
+            background-color: whitesmoke;
+
+        }
+
+        .p8container3 {
+            height: 482px;
+            float: left;
+
+            width: 25%;
+            background-color: whitesmoke;
+        }
+
+        .p8src1 {
+            height: 266px;
+            width: 375px;
+        }
+
+        #p8cont1lorem1 {
+            color: rgb(20, 20, 71);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        #p8cont1lorem2 {
+            color: rgb(20, 20, 71);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 12px;
+            text-align: center;
+        }
+
+        .p8btn {
+            position: relative;
+            top: 23px;
+            left: 116px;
+            border-radius: 67px;
+            width: 133px;
+            height: 39px
+        }
+
+        .p8btn1 {
+            position: relative;
+            top: 23px;
+            left: 116px;
+            border-radius: 67px;
+            width: 133px;
+            height: 39px;
+        }
+
+        .container9 {
+            /*  background-color: rgb(61, 61, 114); */
+            background-color: rgb(61, 61, 114);
+            height: 420px;
+            width: 100%;
+            position: relative;
+            top: 3665px;
+        }
+
+        .page9src1 {
+            position: relative;
+            left: -978px;
+        }
+
+        .p9container1 {
+            width: 25%;
+            height: 100px;
+            float: left;
+            margin-right: 15px;
+            position: relative;
+            left: 195px;
+            bottom: 331px;
+
+        }
+
+        .p9container2 {
+            width: 25%;
+            height: 100px;
+            float: left;
+            position: relative;
+            left: 118px;
+            bottom: 324px;
+
+        }
+
+        .p9container3 {
+            width: 25%;
+            height: 100px;
+            float: left;
+            position: relative;
+            left: 31px;
+            bottom: 324px;
+        }
+
+        #p9wup,
+        #context1,
+        #p9wup1,
+        #context2,
+        #p9wup2,
+        #context3 {
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        #p9wup,
+        #p9wup1,
+        #p9wup2 {
+            font-size: 20px;
+        }
+
+        #newsletter {
+            color: white;
+            font-size: 25px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            position: relative;
+            top: 72px;
+
+        }
+
+        .p9email {
+            position: relative;
+            top: 69px;
+            border-radius: 43px;
+            height: 40px;
+            width: 258px;
+        }
+
+        .sendbox {
+            background-color: rgb(212, 212, 13);
+            height: 38px;
+            width: 74px;
+            position: absolute;
+            right: 64px;
+            top: 227px;
+            border-radius: 161px;
+        }
+
+        .srcsendbox {
+            height: 30px;
+            width: 30px;
+            position: inherit;
+            right: 22px;
+        }
+
+        /* Page 3 remaining part */
+        .p3lorem1 {
+            position: relative;
+            top: 67px;
+            left: -503px;
+            color: white;
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .p3lorem2 {
+            position: relative;
+            top: -83px;
+            left: -88px;
+            color: white;
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .p3lorem3 {
+            position: relative;
+            top: -235px;
+            left: 308px;
+            color: white;
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .p3img1 {
+            height: 38px;
+            width: 53px;
+            position: relative;
+            left: 236px;
+            margin-bottom: 10px;
+        }
+
+        .p3img2 {
+            height: 38px;
+            width: 53px;
+            position: relative;
+            left: 636px;
+            top: -158px;
+        }
+
+        .p3img3 {
+            height: 38px;
+            width: 53px;
+            position: relative;
+            left: 998px;
+            top: -309px;
+        }
+        .btn1:hover,.btn2:hover,#page3btn:hover,#p6btn1:hover,#p6btn2:hover,#p6btn3:hover,.p8btn:hover,.p8btn1:hover,.p8btn2:hover,#p7upbox1:hover,#p7upbox2:hover{
+            background-color: rgb(187, 187, 5);
+            border:none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- First Page -->
+    <div class="page1">
+        <div class="navbar">
+            <img src="head_logo.jpg" alt="Unable to load" class="src_logo_nav" />
+            <a href="#Blog" class="href">Blog</a>
+            <a href="#Price" class="href">Price</a>
+            <a href="#Portfolio" class="href">Portfolio</a>
+            <a href="#Services" class="href">Services</a>
+            <a href="#About" class="href">About</a>
+            <a href="#Home" class="href">Home</a>
+            <img src="mail.jpg" alt="unable to load" class="src_nav_mail">
+        </div>
+        <div class="container">
+            <p id="page1_para">
+                We Will <strong>Make</strong> Your <strong>Business</strong>
+                <br />Great Again
+            </p>
+            <p id="page1_para2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+                Quis, officia?
+            </p>
+            <button class="btn1">
+                <p id="btnpara1"><strong>Contact Us</strong></p>
+            </button>
+            <button class="btn2">
+                <p id="btnpara2"><strong>Discover Now</strong></p>
+            </button>
+        </div>
+    </div>
+    <!-- Second Page -->
+    <div class="page2">
+        <div class="container2">
+            <p id="page2title">Hello <strong>World</strong></p>
+            <p id="page2content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae est omnis unde numquam
+                nostrum optio sequi ducimus voluptatem ratione fugiat.</p>
+            <!-- <img src="i-diamond_b.svg" alt="" class="logo1"> -->
+            <p class="writeup">Exploring your area of activity</p>
+            <p class="writeup" id="wup1">Competitive Analysis</p>
+            <p class="writeup" id="wup2">Do the work in time</p>
+            <img src="img-3.jpg" alt="" class="page2src">
+        </div>
+        <div>
+            <img src="i-diamond_b.svg" alt="" class="logo1">
+        </div>
+        <div>
+            <img src="i-wallet_b.svg" alt="" class="logo2">
+        </div>
+        <div>
+            <img src="i-trophy_b.svg" alt="" class="logo3">
+        </div>
+    </div>
+    <!-- Third Page -->
+    <div class="page3">
+        <div class="container3">
+            <p id="page3writeup">Some of our <strong>best services</strong> <br> to solve your problems</p>
+            <div class="p3container1">
+                <img src="i-message.png" alt="" class="p3img1">
+                <p id="icon1">Digital Marketing</p>
+                <p class="p3lorem1">Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Harum ab quidem
+                    recusandae!</p>
+            </div>
+            <div class="p3container2">
+                <img src="i-feature.png" alt="" class="p3img2">
+                <p id="icon2">Web Development</p>
+                <p class="p3lorem2">Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Harum ab quidem
+                    recusandae!</p>
+            </div>
+            <div class="p3container3">
+                <img src="i-sketch.png" alt="" class="p3img3">
+                <p id="icon3">UI/UX Design</p>
+                <p class="p3lorem3">Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Harum ab quidem
+                    recusandae!</p>
+            </div>
+            <button id="page3btn">Order A Service</button>
+        </div>
+    </div>
+    <!-- Fourth Page -->
+    <div class="page4">
+        <div class="container4">
+            <p class="page4writeup"><strong>Good design </strong>is obvious<br>Great Design is transparent
+                <br>
+            <p id="credit"> <strong>About Joe &copy;</strong> graphic designer ,digital literacy teacher </p>
+            </p>
+            <div class="nav_page4">
+                <a href="#SHOW ALL" class="hrefpage4">SHOW ALL</a>
+                <a href="#DESIGN" class="hrefpage4">DESIGN</a>
+                <a href="#CODE" class="hrefpage4">CODE</a>
+                <a href="#ART" class="hrefpage4">ART</a>
+            </div>
+        </div>
+        <div class="pictures_page4">
+            <div class="pictureleft">
+                <img src="12-min.jpg" alt="" class="srcleft1">
+                <img src="2-min.jpg" alt="" class="srcleft2">
+            </div>
+            <div class="picturemid">
+                <img src="2-min.jpg" alt="" class="srcmid1">
+                <img src="2-min.jpg" alt="" class="srcmid2">
+                <img src="2-min.jpg" alt="" class="srcmid3">
+            </div>
+            <div class="pictureright">
+                <img src="12-min.jpg" alt="" class="srcright1">
+                <img src="2-min.jpg" alt="" class="srcright2">
+            </div>
+            <div class="overlay">
+                <p id="plus"><strong>+</strong></p>
+                <br>
+                <p id="overlay_pt"><strong>Project Title</strong></p>
+                <br>
+                <p id="overlay_code">Code</p>
+            </div>
+            <div class="yellowborder">
+            </div>
+        </div>
+    </div>
+    <!-- Fifth Page -->
+    <div class="page5">
+        <div class="container5">
+            <div class="page5box1">
+                <img src="i-team.png" alt="" class="srcp5box1">
+                <p class="p5b1para1">Unique Customers</p>
+                <p class="p5b1para2"><strong>3519+</strong></p>
+            </div>
+            <div class="page5box2">
+                <img src="i-shield.png" alt="" class="srcp5box2">
+                <p class="p5b2para1">Completed Projects:</p>
+                <p class="p5b2para2"><strong>3519+</strong></p>
+            </div>
+            <div class="page5box3">
+                <img src="i-diamond.png" alt="" class="srcp5box3">
+                <p class="p5b3para1">Happy Users:</p>
+                <p class="p5b3para2"><strong>3519+</strong></p>
+            </div>
+            <div class="page5box4">
+                <img src="i-trophy.png" alt="" class="srcp5box4">
+                <p class="p5b4para1">Honors and Awards:</p>
+                <p class="p5b4para2"><strong>3519+</strong></p>
+            </div>
+        </div>
+    </div>
+    <!-- Sixth Page -->
+    <div class="page6">
+        <p id="p6para1">Flexible <strong>Pricing</strong> Plans</p>
+        <p id="p6para2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <div class="p6container1">
+            <p id="p6head"><strong>Trial Version</strong></p>
+            <p id="p6lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <p id="p6free"><strong>free</strong></p>
+            <p id="p6500">500 gb drive space <br>Unlimited Message</p>
+            <button id="p6btn1">Download</button>
+        </div>
+        <div class="p6container2">
+            <p id="p6head1"><strong>Regular</strong></p>
+            <p id="p6lorem1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p id="p6price1"> <strong> <sub>&dollar;</sub>19<sub>/month</sub> </strong> </p>
+            <p id="p6descp2">500 gb free space <br>Unlimited messages<br>Free Email Address</p>
+            <button id="p6btn2">Purchase</button>
+        </div>
+        <div class="p6container3">
+            <p id="p6head2"><strong>Extended</strong></p>
+            <p id="p6lorem2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p id="p6price2"><strong> <sub>&dollar;</sub>29<sub>/month</sub> </strong></p>
+            <p id="p6descp3">500 gb free space <br>Unlimited messages<br>Free Email Address<br> Friendly Support</p>
+            <button id="p6btn3">Purchase</button>
+        </div>
+    </div>
+    <!-- Seventh Page -->
+    <div class="page7">
+        <div class="container7">
+            <div id="p7upbox1">
+                <img src="larrow.png" alt="" class="box1p7src">
+            </div>
+            <div id="p7upbox2">
+                <img src="rarrow.png" alt="" class="box2p7src">
+            </div>
+
+            <p id="p7wup"><strong>Testimonials</strong> about us</p>
+            <p id="p7wup1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="p7cont1">
+                <img src="t-1.jpeg" alt="" class="p7src1">
+                <p id="p7cre"><strong>Robert Newmen</strong> <br> Microsoft Corporation</p>
+                <p id="p7lorem1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error blanditiis ex inventore
+                    nesciuntexcepturi nulla officia<br> tempore nisi consequuntur reprehenderit explicabo esse
+                    voluptatibus delectus hic perferendis recusandae,<br> et consectetur dolorem temporibus dolore nemo
+                    veniam facilis cupiditate ratione. Aspernatur.</p>
+            </div>
+            <div class="p7cont2">
+                <img src="t-2.jpeg" alt="" class="p7src2">
+                <p id="p7cre1"><strong>Robert Newmen </strong><br> SpaceX</p>
+                <p id="p7lorem2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde ab quia voluptas aut
+                    dolorum molestias<br> omnis ea culpa magnam! Itaque, voluptatem soluta! Modi vitae dolorum placeat
+                    repellendus<br> nam, rem libero ab, ipsum magnam nesciunt nisi facere, accusantium inventore!</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Eigth Page -->
+    <div class="page8">
+        <div class="container8">
+            <p id="p8wup">Latest <strong>Blog </strong>Posts</p>
+            <p id="p8lorem1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="p8container1">
+                <img src="img-2.jpg" alt="" class="p8src1">
+                <p id="p8cont1lorem1"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong></p>
+                <p id="p8cont1lorem2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, commodi.</p>
+                <button class="p8btn">Read More</button>
+            </div>
+            <div class="p8container2">
+                <img src="img-2.jpg" alt="" class="p8src1">
+                <p id="p8cont1lorem1"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong></p>
+                <p id="p8cont1lorem2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, commodi.</p>
+                <button class="p8btn1">Read More</button>
+            </div>
+            <div class="p8container3">
+                <img src="img-2.jpg" alt="" class="p8src1">
+                <p id="p8cont1lorem1"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong></p>
+                <p id="p8cont1lorem2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, commodi.</p>
+                <button class="p8btn">Read More</button>
+            </div>
+        </div>
+    </div>
+    <!-- Ninth Page -->
+    <div class="page9">
+        <div class="container9">
+            <img src="logo-footer.jpg" alt="" class="page9src1">
+            <div class="p9container1">
+                <p id="p9wup"><strong>Company</strong></p>
+                <p id="context1">About<br>Support<br>Press<br>Legal & Privacy</p>
+            </div>
+            <div class="p9container2">
+                <p id="p9wup1"><strong>Quick Links</strong></p>
+                <p id="context2">News<br>Contact us<br>FAQ</p>
+            </div>
+            <div class="p9container3">
+                <p id="p9wup2"><strong>Quick Links</strong></p>
+                <p id="context3">FACEBOOK<br>GOOGLE<br>TWITTER<br>INSTAGRAM</p>
+            </div>
+            <p id="newsletter"><strong>Subscribe News Letter</strong></p>
+            <input type="text" class="p9email" placeholder="email">
+            <div class="sendbox">
+                <img src="i-message.png" alt="" class="srcsendbox">
+            </div>
+            </input>
+        </div>
+    </div>
+</body>
+
+</html>
